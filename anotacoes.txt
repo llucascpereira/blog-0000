@@ -1,0 +1,64 @@
+Parei: Forms and Validations
+    MDN Web Docs: Client-side form validation
+        Using built-in form validation
+
+
+
+https://shields.io/badges/git-hub-forks
+
+
+
+
+
+Transformação de string para number:
+    - String(n)
+    - n.string()
+
+Muda a formatação do numero para valor monetário:
+    - num1.toLocalString('pt-BR', {style: 'corrency', currency: 'EUR'})
+
+Ordem de Precedência dos operadores aritiméticos:
+    ()
+    **
+    * / %
+    + -
+
+Ordem de Precedência dos operadores relacionais:
+    > >= < <= == === != !===
+
+Ordem de Precedência dos operadores lógicos:
+    !
+    &&
+    ||
+
+Ternário:
+    teste ? true : false
+    ex.: média >= 7?'aprovado':'reprovado'
+
+Ordem de precedência:
+    Aritiméticos
+    Relacionais
+    Lógicos
+    Ternários
+
+Árvore DOM (Document Object Model)
+
+Condição Múltipla
+    switch (expressão) {
+        case valor 1:
+            []
+            break
+        case valor 2:
+            []
+            break
+        case valor 3:
+            []
+            break
+        default:
+            []
+            break
+    }
+
+    - obs.: break é obrigatório!
+
+Banco de dados de imagens: https://www.pexels.com/pt-br/

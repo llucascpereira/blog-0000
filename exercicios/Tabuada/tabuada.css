@@ -1,0 +1,35 @@
+body {
+    background-color: #7C2AE8;
+    font: normal 14px Arial;
+    color: #FFF;
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    height: auto;
+    padding: 15px;
+    margin: auto;
+    color: #000;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+
+.tabuada__btn {
+    width: 128px;
+    height: auto;
+    color: #FFF;
+    background-color: darkcyan;
+    border: 0;
+    cursor: pointer;
+    transition: border .3s;
+}
+
+.tabuada__btn:hover {
+    border: 2px solid #000;
+}
+
+footer {
+    font-style: italic;
+}

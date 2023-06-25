@@ -1,9 +1,26 @@
-# blog
+# blog pessoal
 A personal blog to never stop learn.
+---
+![GitHub top language](https://img.shields.io/github/languages/top/:user/:repo)
+![GitHub language count](https://img.shields.io/github/languages/count/:user/:repo)
+![GitHub forks](https://img.shields.io/github/forks/:user/:repo)
+---
+## Introdução
+O projeto foi criado para contribuir com o meu apredizado, fora e dentro do mundo da programação. A ideia inicial é a criação de um blog pessoal para me ajudar a estudar para o PSCPP (Processo Seletivo à Categoria de Praticante de Prático) e realizar a organização e desenvolvimento de outros projetos pessoais, como uma 'Landing Page' do meu canal de streaming (Cabaxi Roxo).
+## Objetivo
+Foi criado para uso pessoal, ainda não podendo estar disponível ao público.
+Para quaisquer dúvidas entrar em contato com o criado do projeto.
+Mantido e criado por: Lucas Pereira.
+## Funcionaliades
+Dentro do projeto é possível encontrar funcionaliades de vários níveis de dificuldade espalhadas pelos assuntos do blog. A medida que fui estudando sobre desenvolvimento web fui acrescentando funcionalidades, deixando-o mais estruturado e mais bonito. Algumas das coisas que podem ser encontradas no site:
+* Tabela com crônograma de estudo (HTML e CSS);
+* Flash cards com conteúdos do PSCPP; (falta fazer)
+* Calculo de progressão dos estudos (falta fazer)
+* Gráfico de progresso, média das notas (falta fazer)
+* Galeria dos distintivos do canal do Cabaxi Roxo (falta fazer)
 
+## Instalação e execução do projeto (projeto futuro)
 
-O que o projeto faz
-Por que o projeto é útil
-Como os usuários podem começar a usar o projeto
-Onde os usuários podem obter ajuda com seu projeto
-Quem mantém e contribui com o projeto
+## Uso do projeto (projeto futuro)
+## Créditos
+- Trilha Frontend do guia [roadmap](https://roadmap.sh/)

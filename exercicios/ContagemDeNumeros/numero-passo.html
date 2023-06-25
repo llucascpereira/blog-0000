@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="numero-passo.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div class="counter__box">
+            <div class="num__content">
+                <label for="numeroInicial">Início: </label>
+                <input type="number" name="numeroInicial" id="numeroInicial" value="">
+            </div>
+            
+            <div class="num__content">
+                <label for="numeroFinal">Fim: </label>
+                <input type="number" name="numeroFinal" id="numeroFinal" value="">
+            </div>
+            
+            <div class="num__content">
+                <label for="numPasso">Passo: </label>
+                <input type="number" name="numPasso" id="numPasso" value="">
+            </div>
+            <input class="num__btn" type="button" value="Calcular" onclick="contar()">
+        </div>
+        <div>
+            <div class="res">
+                Preparando contagem...
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Pulga</p>
+    </footer>
+    <script src="numero-passo.js"></script>
+</body>
+</html>

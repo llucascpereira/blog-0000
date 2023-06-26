@@ -1,10 +1,5 @@
 # blog pessoal
 A personal blog to never stop learn.
----
-![GitHub top language](https://img.shields.io/github/languages/top/:user/:repo)
-![GitHub language count](https://img.shields.io/github/languages/count/:user/:repo)
-![GitHub forks](https://img.shields.io/github/forks/:user/:repo)
----
 ## Introdução
 O projeto foi criado para contribuir com o meu apredizado, fora e dentro do mundo da programação. A ideia inicial é a criação de um blog pessoal para me ajudar a estudar para o PSCPP (Processo Seletivo à Categoria de Praticante de Prático) e realizar a organização e desenvolvimento de outros projetos pessoais, como uma 'Landing Page' do meu canal de streaming (Cabaxi Roxo).
 ## Objetivo

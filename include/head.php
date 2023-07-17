@@ -17,6 +17,9 @@
     <meta name="twitter:creator" content="@estellevw" />
     <meta name="twitter:site" content="@perfmattersconf" />
 
+    <!-- icons -->
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon">
+
     <!-- app manifest -->
-    <link rel="manifest" href="json/manifest.json">
+    <link rel="manifest" href="../json/manifest.json">
 </head>

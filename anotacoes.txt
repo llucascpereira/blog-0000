@@ -1,8 +1,11 @@
-Parei: Forms and Validations
+Parei: 
+
+Forms and Validations
     https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Form_validation
     Learn Forms by web.dev
         012 Test forms across devices and platforms
 
+Basics of SEO
 
 https://shields.io/badges/git-hub-forks
 

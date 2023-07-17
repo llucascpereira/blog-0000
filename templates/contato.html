@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,7 @@
 
     <link rel="icon" href="../img/logo.jpg" type="image/x-icon"> <!-- Favicon -->
     <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <script src="../js/contact.js"></script>
 </head>
 
 <body>
@@ -30,23 +31,22 @@
                         <legend>Informações pessoais</legend>
                         <div class="grid grid__justify-between grid__align-center">
                             <div class="grid__half">
-                                <label for="name">Digite seu nome</label>
-                                <input class="form__input" type="text" name="name" id="name" placeholder="Nome"
-                                    autocomplete="given-name" pattern="[a-zA-Z]{2,20}" required autofocus>
+                                <label>
+                                    Digite seu nome
+                                    <input class="form__input" type="text" name="name" id="name" placeholder="Nome" autocomplete="given-name" pattern="[a-zA-Z]{2,20}" title="No nome você pode utilizar letras de a até z e de dois a vinte caracteres, podendo contar letras maiusculas ou minusculas." required autofocus>
+                                </label>
                             </div>
                             <div class="grid__half">
-                                <label for="lastName">Digite seu sobrenome</label>
-                                <input class="form__input" type="text" name="lastName" id="lastName"
-                                    placeholder="Sobrenome" autocomplete="family-name" pattern="[a-zA-Z]{2,20}"
-                                    required>
+                                <label>
+                                    Digite seu sobrenome
+                                    <input class="form__input" type="text" name="lastName" id="lastName" placeholder="Sobrenome" autocomplete="family-name" pattern="[a-zA-Z]{2,20}"  title="No sobrenome você pode utilizar letras de a até z e de dois a vinte caracteres, podendo contar letras maiusculas ou minusculas." required>
+                                </label>
                             </div>
                         </div>
                         <div class="grid grid__justify-between grid__align-center">
                             <div class="grid__half">
                                 <label for="nickname">Digite seu apelido</label>
-                                <input class="form__input" type="text" name="nickname" id="nickname"
-                                    placeholder="Apelido" autocomplete="nickname" pattern="[a-zA-Z]{2,20}" minlength="5"
-                                    maxlength="20">
+                                <input class="form__input" type="text" name="nickname" id="nickname" placeholder="Apelido" autocomplete="nickname" pattern="[a-zA-Z]{2,20}" title="No apelido você pode utilizar no mínimo cinco e no máximo vinte letras de a até z e de dois a vinte caracteres, podendo contar letras maiusculas ou minusculas." minlength="5" maxlength="20">
                             </div>
                             <div class="grid__half">
                                 <label for="phone">Digite seu telefone</label>
@@ -144,16 +144,20 @@
                     </fieldset>
                 </form>
 
-                <iframe class="contact__map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57675.02820037691!2d-49.301941394805915!3d-25.381728778291247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6c211eec2b5%3A0xe017a165c1da729e!2zUGFycXVlIFPDo28gTG91cmVuw6dv!5e0!3m2!1spt-BR!2sbr!4v1687373612515!5m2!1spt-BR!2sbr"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="grid__half">
+                    <address>Junte-se a min no <a href="https://www.linkedin.com/in/llucascpereira/" target="_blank">LinkedIn</a></address>
+                    <iframe class="contact__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57675.02820037691!2d-49.301941394805915!3d-25.381728778291247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6c211eec2b5%3A0xe017a165c1da729e!2zUGFycXVlIFPDo28gTG91cmVuw6dv!5e0!3m2!1spt-BR!2sbr!4v1687373612515!5m2!1spt-BR!2sbr"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
             </div>
         </section>
     </main>
 
     <footer>
-        &lt;&lt;&lt; &copy; Lucas Pereira &gt;&gt;&gt;
+        <p><small>Copyright © 2023 Lucas Pereira<sup>®</sup></small></p>
         <p class="nav__item">
             <a href="#">Back to top</a>
         </p>

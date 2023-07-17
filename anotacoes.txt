@@ -1,14 +1,16 @@
 Parei: Forms and Validations
-    MDN Web Docs: Client-side form validation
-        Using built-in form validation
-
+    https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Form_validation
+    Learn Forms by web.dev
+        012 Test forms across devices and platforms
 
 
 https://shields.io/badges/git-hub-forks
 
 
-
-
+Fazer quando o site acabar
+https://developer.chrome.com/blog/new-in-devtools-83/#vision-deficiencies
+https://inclusive.microsoft.design/
+https://www.smashingmagazine.com/2010/06/the-ultimate-guide-to-a-b-testing/
 
 Transformação de string para number:
     - String(n)

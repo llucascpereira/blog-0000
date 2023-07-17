@@ -26,7 +26,9 @@
     = body
  */
 
-html { overflow-x: hidden; }
+html {
+    overflow-x: hidden;
+}
 
 body {
     color: var(--base-color);
@@ -36,13 +38,82 @@ body {
     line-height: 20px;
 }
 
-.ui__grid {
+.grid {
     width: 100%;
-    max-width: 1260px;
     padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.grid__1200 {
+    max-width: 1260px;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: border-box;
+}
+
+/* grid columns */
+
+.grid__full {
+    width: 100%;
+}
+
+.grid__half {
+    width: 50%;
+}
+
+/* grid align (can be added outside & inside the grid) */
+
+.grid__align-top {
+    align-items: flex-start;
+}
+
+.grid__align-bottom {
+    align-items: flex-end;
+}
+
+.grid__align-bottom [class*="grid__col-"] {
+    vertical-align: bottom;
+}
+
+.grid__align-center {
+    align-items: center;
+}
+
+.grid__align-center [class*="grid__col-"] {
+    vertical-align: middle;
+}
+
+.grid__align-baseline {
+    align-items: baseline;
+}
+
+.grid__align-baseline [class*="grid__col-"] {
+    vertical-align: baseline;
+}
+
+/* grid justify (can be added outside & inside the grid) */
+
+.grid__justify-left {
+    justify-content: flex-start;
+}
+
+.grid__justify-right {
+    justify-content: flex-end;
+}
+
+.grid__justify-center {
+    justify-content: center;
+}
+
+.grid__justify-between {
+    justify-content: space-between;
+}
+
+.grid__justify-around {
+    justify-content: space-around;
 }
 
 /*
@@ -103,6 +174,73 @@ body {
     color: #EEE;
 }
 
+
+/*
+    = form
+ */
+
+.form__box {
+    width: 50%;
+    height: auto;
+    max-width: 500px;
+    padding: 30px 30px 20px;
+    background-color: burlywood;
+    border-radius: 10px;
+    color: #000;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
+
+.form__grid p {
+    display: flex;
+}
+
+label {
+    flex: 2;
+    padding-right: 15px;
+}
+
+.form__input {
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+    margin: 0px 15px 15px;
+}
+
+/* This is our style for the invalid fields */
+.form__input:invalid {
+    border-color: #900;
+    background-color: #fdd;
+}
+
+.form__input:focus:invalid {
+    outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
+
+textarea {
+    height: 60px;
+}
+
+
 /*
     = pilot
  */
@@ -141,6 +279,21 @@ caption {
     align-items: center;
     border: 1px solid #FFF;
     border-radius: 10px;
+}
+
+/*
+    = contato
+ */
+
+.contact__map {
+    width: 50%;
+    height: 500px;
+}
+
+.validation-message {
+    display: block;
+    padding-top: 0.4em;
+    color: red;
 }
 
 /*

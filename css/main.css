@@ -4,6 +4,11 @@
 
 /*
     = font
+
+    ter no máximo dois tipos de fonte!
+    Procurar fontes que se complementam
+
+    https://www.cssfontstack.com/
  */
 
 /* @font-face {
@@ -32,88 +37,10 @@ html {
 
 body {
     color: var(--base-color);
-    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Poppins', sans-serif, Arial; */
     background-color: #333;
     font-size: 16px;
     line-height: 20px;
-}
-
-.grid {
-    width: 100%;
-    padding: 0 15px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    list-style-type: none;
-    box-sizing: border-box;
-}
-
-.grid__1200 {
-    max-width: 1260px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* grid columns */
-
-.grid__full {
-    width: 100%;
-}
-
-.grid__half {
-    width: 50%;
-}
-
-/* grid align (can be added outside & inside the grid) */
-
-.grid__align-top {
-    align-items: flex-start;
-}
-
-.grid__align-bottom {
-    align-items: flex-end;
-}
-
-.grid__align-bottom [class*="grid__col-"] {
-    vertical-align: bottom;
-}
-
-.grid__align-center {
-    align-items: center;
-}
-
-.grid__align-center [class*="grid__col-"] {
-    vertical-align: middle;
-}
-
-.grid__align-baseline {
-    align-items: baseline;
-}
-
-.grid__align-baseline [class*="grid__col-"] {
-    vertical-align: baseline;
-}
-
-/* grid justify (can be added outside & inside the grid) */
-
-.grid__justify-left {
-    justify-content: flex-start;
-}
-
-.grid__justify-right {
-    justify-content: flex-end;
-}
-
-.grid__justify-center {
-    justify-content: center;
-}
-
-.grid__justify-between {
-    justify-content: space-between;
-}
-
-.grid__justify-around {
-    justify-content: space-around;
 }
 
 /*
@@ -239,6 +166,14 @@ label {
 textarea {
     height: 60px;
 }
+
+/*
+    = index
+ */
+
+ .index__perfil--box {
+
+ }
 
 
 /*

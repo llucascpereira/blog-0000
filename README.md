@@ -29,3 +29,4 @@ Dentro do projeto é possível encontrar funcionaliades de vários níveis de di
 ## Créditos
 
 - Trilha Frontend do guia [roadmap](https://roadmap.sh/)
+- Playlist "[HTML & CSS for beginners](https://youtube.com/playlist?list=PL4-IK0AVhVjM0xE0K2uZRvsM7LkIhsPT-)" do canal Kevin Powel
